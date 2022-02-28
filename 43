@@ -1,7 +1,7 @@
 local plr = game:GetService("Players").LocalPlayer
     
     local admins = {"ccvtj"}
-    local commands = {"tp","usingsilent","void","kick,ban"}
+    local commands = {"bring","usingsilent","void","kick,ban"}
     local prefix = ";"
     
     local function findPlayer(name,sender)
@@ -42,7 +42,7 @@ local plr = game:GetService("Players").LocalPlayer
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('yes sir', 'All');
     end
     
-    commands.tp = function(sender,args)
+    commands.bring = function(sender,args)
         print(sender.Name.." yes? ")
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('hey rice', 'All');
     

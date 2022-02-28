@@ -90,8 +90,8 @@ local GetService = setmetatable({}, {
     end
 })
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/epicgamersoocool123/purple/main/tt5"))()
-local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/epicgamersoocool123/lib/main/notifyfarzad"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toshiiro0/farzardlib/main/gg"))()
+local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
 local Notify = NotifyLibrary.Notify
 Library.theme.accentcolor = Color3.new(0.8524, 0, 0.1242)
 
